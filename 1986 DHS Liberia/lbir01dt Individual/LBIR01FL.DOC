@@ -1,0 +1,147 @@
+                      INDIVIDUAL RECODE DOCUMENTATION
+
+LIBERIA                      Version 01 Doc 01                           LB
+
+Name of survey      Liberia Demographic and Health Survey
+
+Executing Agency    Bureau of Statistics
+                    Ministry of Planning and Economic Affairs
+
+Year of fieldwork   1986
+
+Universe            All Women, 15-49
+
+Coverage            National, 100%
+
+Size                5239
+
+Weights             Weighted.  Oversampling in Sinoe and Grand Gedeh
+                    Counties.
+
+Contents            DHS B Core + Additional health questions
+
+Anthropometry       None
+
+Record size         Flat file: 2324
+                    Hierarchical and Rectangular files: 155 maximum
+
+Supplementary Data  Household members        
+Files
+Sections and Variables Unused.
+     
+REC33     Contraceptive Practice History
+
+REC31     Contraceptive table - methods 11-15 are unused
+
+V104-V105      V132           V365-V366      V416           V506 
+V109-V111      V216           M5             V420-V421      V514-V524
+V115           V307-V311      M7             H11-H21        V526
+V117-V119      V315-V325      M9             H26-H28        V601
+V121           V328           V401           H35-H36        V704-V714
+V123-V128      V331-V360      V403           V504           V806-V810
+
+Sections Added.
+
+REC91     Country specific single variables.
+
+SCOUNTY        County code
+SDISTR         District code
+SHOCCUP        Occupation
+SHEMP          Employment status
+S102           Childhood place of residence
+S105           Literacy
+S107           Highest level of education
+S108           Highest grade at that level
+S114A          Have table with chair
+S114B          Have bed with mattress
+S219           Had period in last four weeks
+S336           Future source of contraception
+S229B          Gave child rice water
+S229F          Gave child any other liquid
+S234A          Place of delivery of last child
+S516           Husband's objection to family planning
+S517D          Dollar cost for family planning
+S517C          Cents cost for family planning
+S608           Ideal interval between births in years
+S614           Whether a man prefers to marry a woman who has given birth
+S702           Partner's literacy
+S704           Partner's highest level of education
+S705           Partner's highest grade at that level
+S706A          Past 4 weeks buy salt
+S706B          Past 4 weeks buy soap
+S706C          Past 4 weeks buy toothpaste
+S706D          Past 4 weeks buy aspirin
+S706E          Past 4 weeks buy canned fish
+S706F          Past 4 weeks buy face powder
+S706G          Past 4 weeks buy Chloroquine
+S801A-E        Cause of running stomach
+S801A          Too much food
+S801B          Drinking water dirty
+S801C          Eating bad food
+S801D          Sore in stomach
+S801E          Other
+S802           Knows nearest health clinic
+S803H          Hours to clinic
+S803M          Minutes to clinic
+S804           Treatment at clinic
+S805           Reason for receiving treatment
+S806           Reason did not go to clinic
+S807D          Dollar cost for treatment
+S807C          Cents cost for treatment
+S808           Knows nearest medicine store
+S809H          Hours to medicine store
+S809M          Minutes to medicine store
+S810           Purchased medicine at store
+S811           Type of medicine purchased
+S812           Injections available at store
+S813           Village Development Council
+S814           Village health worker
+S901           Native language
+S902           Language of interview
+S903           Interpreter for interview
+
+REC95     Country specific health variables
+
+S405           Had runny stomach in past 4 weeks
+S406           Treated runny stomach
+S407A-E        Treatment for runny stomach
+S407A          Country medicine or herbs
+S407B          Antibiotics
+S407C          Oral rehydration
+S407D          Homemade sugar salt water solution
+S407E          Other treatment
+S410B          Fever treatment - Country medicine or herbs
+S410D          Fever treatment - Other treatments
+S413C          Cough treatment - Country med or herbs
+S413D          Cough treatment - Hospital
+S413E          Cough treatment - Other treatments
+S414           Ever had measles
+Notes on Recode File
+
+1    There were 45 cases where age at death was imputed.
+
+2.   Code 7 (Date placed was used in variable B10 to record cases in which
+     the date of birth of a child was manually placed during the editing
+     process.
+
+3.   There are 48 cases where the respondent reported having no sexual
+     intercourse since her last birth according to variable V527, but
+     reported resuming sexual relations since the last birth in variable M8.
+
+4.   There are 4 cases where the respondent reported ever using sterilization
+     in the contraceptive table, but not currently using sterilization in
+     V312.
+
+5.   There are 6 cases where the respondent is still breastfeeding the last
+     child, but the child is dead.
+
+6.   There are 30 cases where vaccinations are recorded as being given before
+     the date of birth, out of order or less than 7 days after the preceding
+     vaccination.
+
+7.   There are 74 cases where the age at first sexual intercourse is after
+     the age at conception of her first birth.
+
+8.   There are 2 cases where times of start and end of interview are
+     inconsistent.  The original times are recorded in V801 and V802, but
+     V803 is set to 97 (Inconsistent).

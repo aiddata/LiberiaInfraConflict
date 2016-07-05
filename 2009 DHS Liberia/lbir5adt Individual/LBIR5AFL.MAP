@@ -1,0 +1,2227 @@
+                                                   LBIR5AFL
+                                                LBIR5AFL_DICT
+
+                                        C:\COUNTRIES\LB5A\LBIR5AFL.DCF
+                                    Last Modified:  4/25/2012  8:02:44 AM
+
+--------------------------------------------------------------------------------------------------------------
+Level Name                    Level Label                                                  Type            Rec
+  Record Name                   Record Label                                              Value  Req  Max  Len
+--------------------------------------------------------------------------------------------------------------
+HOUSEHOLD                     HOUSEHOLD
+  RECORD1                       RECORD1                                                          Yes    1 2436
+Level: HOUSEHOLD                                       Record: RECORD1
+--------------------------------------------------------------------------------------------------------------
+                                                                                 Data Item            Dec Zero
+Item Name              Item Label                                     Start  Len Type Type  Occ  Dec Char Fill
+--------------------------------------------------------------------------------------------------------------
+                         (record type)                                    0    0   AN    I    1    0   No   No
+CASEID            (id) Case Identification                                1   15   AN    I    1    0   No   No
+V000                   Country code and phase                            16    3   AN    I    1    0   No   No
+V001                   Cluster number                                    19    8    N    I    1    0   No   No
+V002                   Household number                                  27    4    N    I    1    0   No   No
+V003                   Respondent's line number                          31    3    N    I    1    0   No   No
+V004                   Ultimate area unit                                34    4    N    I    1    0   No   No
+V005                   Sample weight                                     38    8    N    I    1    0   No   No
+V006                   Month of interview                                46    2    N    I    1    0   No   No
+                               1:12  
+V007                   Year of interview                                 48    4    N    I    1    0   No   No
+                               2000:2010  
+V008                   Date of interview (CMC)                           52    4    N    I    1    0   No   No
+V009                   Respondent's month of birth                       56    2    N    I    1    0   No   No
+                               1:12  
+                          (na)       NotAppl
+V010                   Respondent's year of birth                        58    4    N    I    1    0   No   No
+                               1951:1995  
+                          (na)            NotAppl
+V011                   Date of birth (CMC)                               62    4    N    I    1    0   No   No
+V012                   Current age - respondent                          66    2    N    I    1    0   No   No
+                               15:49  
+                          (na)        NotAppl
+V013                   Age 5-year groups                                 68    1    N    I    1    0   No   No
+                               1  15-19
+                               2  20-24
+                               3  25-29
+                               4  30-34
+                               5  35-39
+                               6  40-44
+                               7  45-49
+                          (na)    NotAppl
+V014                   Completeness of information                       69    1    N    I    1    0   No   No
+                               1  Month and year
+                               2  Month and age -y imp
+                               3  Year and age - m imp
+                               4  Y & age - y ignored
+                               5  Year - a, m imp
+                               6  Age - y, m imp
+                               7  Month - a, y imp
+                               8  None - all imp
+                          (na)    NotAppl
+V015                   Result of individual interview                    70    1    N    I    1    0   No   No
+                               1  Completed
+                               2  Not at home
+                               3  Postponed
+                               4  Refused
+                               5  Partly completed
+                               6  Incapacitated
+                               7  Other
+V016                   Day of interview                                  71    2    N    I    1    0   No   No
+                               1:31  
+V017                   NA - CMC start of calendar                        73    4    N    I    1    0   No   No
+                          (na)       NotAppl
+V018                   NA - Row of month of interview                    77    2    N    I    1    0   No   No
+                               0     No calendar
+                               1:20  
+V019                   NA - Length of calendar                           79    2    N    I    1    0   No   No
+                               0      No calendar
+                               61:80  
+V019A                  NA - Number of calendar columns                   81    1    N    I    1    0   No   No
+                               0:9  
+                          (na)      NotAppl
+V020                   Ever-married sample                               82    1    N    I    1    0   No   No
+                               0  All woman sample
+                               1  Ever married sample
+V021                   Primary sampling unit                             83    4    N    I    1    0   No   No
+V022                   Sample stratum number                             87    4    N    I    1    0   No   No
+V023                   Sample domain                                     91    2    N    I    1    0   No   No
+                               0  National
+                               1  Country specific
+V024                   Region                                            93    2    N    I    1    0   No   No
+                               1  Monrovia
+                               2  North Western
+                               3  South Central
+                               4  South Eastern A
+                               5  South Eastern B
+                               6  North Central
+V025                   Type of place of residence                        95    1    N    I    1    0   No   No
+                               1  Urban
+                               2  Rural
+V026                   De facto place of residence                       96    1    N    I    1    0   No   No
+                               0  Capital, large city
+                               1  Small city
+                               2  Town
+                               3  Countryside
+                           (m) 9  Missing
+V027                   Number of visits                                  97    1    N    I    1    0   No   No
+                               1:5  
+V028                   Interviewer identification                        98    3    N    I    1    0   No   No
+                           (m) 999  Missing
+V029                   Keyer identification                             101    2    N    I    1    0   No   No
+                           (m) 99  Missing
+V030                   Field supervisor                                 103    3    N    I    1    0   No   No
+                           (m) 999  Missing
+                          (na)      NotAppl
+V031                   NA - Field editor                                106    3    N    I    1    0   No   No
+                           (m) 999  Missing
+                          (na)      NotAppl
+V032                   Office editor                                    109    2    N    I    1    0   No   No
+                           (m) 99  Missing
+                          (na)     NotAppl
+V033                   NA - Ultimate area selection prob.               111    8    N    I    1    0   No   No
+V034                   NA - Line number of husband                      119    2    N    I    1    0   No   No
+                               0     Husband not in HH
+                               1:90  
+                           (m) 99    Missing
+                          (na)       NotAppl
+V040                   NA - Cluster altitude in meters                  121    4    N    I    1    0   No   No
+                          (na)       NotAppl
+V042                   Household selection for hemoglobin               125    1    N    I    1    0   No   No
+                               0  Not selected
+                               1  Selected
+                          (na)    NotAppl
+V043                   NA - Selection for women's status module         126    1    N    I    1    0   No   No
+                               0  Woman not selected
+                               1  Woman selected
+                          (na)    NotAppl
+V044                   NA - Selection for domestic violence module      127    1    N    I    1    0   No   No
+                               0  Woman not selected
+                               1  Woman selected and interviewed
+                               2  Woman selected, but privacy not possible
+                               3  Woman selected, but not interviewed
+                          (na)    NotAppl
+V101                   Region                                           128    2    N    I    1    0   No   No
+                               1  Monrovia
+                               2  North Western
+                               3  South Central
+                               4  South Eastern A
+                               5  South Eastern B
+                               6  North Central
+V102                   Type of place of residence                       130    1    N    I    1    0   No   No
+                               1  Urban
+                               2  Rural
+V103                   NA - Childhood place of residence                131    1    N    I    1    0   No   No
+                               0  Capital, large city
+                               1  City
+                               2  Town
+                               3  Countryside
+                               4  Abroad
+                           (m) 9  Missing
+V104                   Years lived in place of res.                     132    2    N    I    1    0   No   No
+                               0:90  
+                               95    Always
+                               96    Visitor
+                               97    Inconsistent
+                               98    Don't know
+                           (m) 99    Missing
+V105                   Type of place of previous res.                   134    1    N    I    1    0   No   No
+                               0  Capital, large city
+                               1  City
+                               2  Town
+                               3  Countryside
+                               4  Abroad
+                           (m) 9  Missing
+                          (na)    NotAppl
+V106                   Highest educational level                        135    1    N    I    1    0   No   No
+                               0  No education
+                               1  Primary
+                               2  Secondary
+                               3  Higher
+                           (m) 9  Missing
+V107                   Highest year of education                        136    2    N    I    1    0   No   No
+                           (m) 99  Missing
+                          (na)     NotAppl
+V113                   Source of drinking water                         138    2    N    I    1    0   No   No
+                               10  PIPED WATER
+                               11  Piped into dwelling
+                               12  Piped to yard/plot
+                               13  Public tap/standpipe
+                               20  TUBE WELL WATER
+                               21  Tube well or borehole
+                               30  DUG WELL (OPEN/PROTECTED)
+                               31  Protected well
+                               32  Unprotected well
+                               40  SURFACE WATER
+                               41  Protected spring
+                               42  Unprotected spring
+                               43  River/dam/lake/ponds/stream/canal/irirgation channel
+                               51  Rainwater
+                               61  Tanker truck
+                               62  Cart with small tank
+                               71  Bottled water
+                               96  Other
+                               97  Not dejure resident
+                           (m) 99  Missing
+                          (na)     NotAppl
+V115                   NA - Time to get to water source                 140    3    N    I    1    0   No   No
+                               0:900  
+                               996    On premises
+                               997    Not dejure resident
+                           (m) 999    Missing
+                          (na)        NotAppl
+V116                   Type of toilet facility                          143    2    N    I    1    0   No   No
+                               10  FLUSH TOILET
+                               11  Flush - to piped sewer system
+                               12  Flush - to septic tank
+                               13  Flush - to pit latrine
+                               14  Flush - to somewhere else
+                               15  Flush - don't know where
+                               20  PIT TOILET LATRINE
+                               21  Pit latrine - ventilated improved pit (VIP)
+                               22  Pit latrine - with slab
+                               23  Pit latrine - without slab / open pit
+                               30  NO FACILITY
+                               31  No facility / bush / field
+                               41  Composting toilet
+                               42  Bucket toilet
+                               43  Hanging toilet/latrine
+                               96  OTHER
+                               97  Not dejure resident
+                           (m) 99  Missing
+                          (na)     NotAppl
+V119                   Has electricity                                  145    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                               7  Not dejure resident
+                           (m) 9  Missing
+                          (na)    NotAppl
+V120                   Has radio                                        146    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                               7  Not dejure resident
+                           (m) 9  Missing
+                          (na)    NotAppl
+V121                   Has television                                   147    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                               7  Not dejure resident
+                           (m) 9  Missing
+                          (na)    NotAppl
+V122                   Has refrigerator                                 148    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                               7  Not dejure resident
+                           (m) 9  Missing
+                          (na)    NotAppl
+V123                   Has bicycle                                      149    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                               7  Not dejure resident
+                           (m) 9  Missing
+                          (na)    NotAppl
+V124                   Has motorcycle/scooter                           150    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                               7  Not dejure resident
+                           (m) 9  Missing
+                          (na)    NotAppl
+V125                   Has car/truck                                    151    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                               7  Not dejure resident
+                           (m) 9  Missing
+                          (na)    NotAppl
+V127                   Main floor material                              152    2    N    I    1    0   No   No
+                               10  NATURAL
+                               11  Earth, sand, mud
+                               20  RUDIMENTARY
+                               21  Wood planks
+                               30  FINISHED
+                               31  Parquet, polished wood
+                               32  Floor mat, linoleum, vinyl
+                               33  Ceramic tiles
+                               34  Concrete, cement
+                               35  Carpet
+                               96  OTHER
+                               97  Not dejure resident
+                           (m) 99  Missing
+                          (na)     NotAppl
+V128                   Main wall material                               154    2    N    I    1    0   No   No
+                               10  NATURAL
+                               11  Mud and sticks
+                               12  Cane / palm / trunks
+                               13  Straw, thatch mats
+                               20  RUDIMENTARY
+                               21  Mud bricks
+                               22  Plywood, reused wood
+                               23  Cardboard, plastic
+                               30  FINISHED
+                               31  Cement or stone blocks
+                               32  Bricks
+                               33  Wood planks / shingles
+                               34  Zinc
+                               96  OTHER
+                               97  Not dejure resident
+                           (m) 99  Missing
+                          (na)     NotAppl
+V129                   Main roof material                               156    2    N    I    1    0   No   No
+                               10  NATURAL
+                               11  Thatch / palm leaf
+                               20  RUDIMENTARY
+                               21  Palm / bamboo / mats
+                               22  Wood planks
+                               23  Tarpaulin, plastic
+                               30  FINISHED
+                               31  Zinc, metal
+                               32  Wood
+                               34  Ceramic tiles
+                               35  Concrete, cement
+                               36  Asbestos sheets, shingles
+                               96  OTHER
+                               97  Not dejure resident
+                           (m) 99  Missing
+                          (na)     NotAppl
+V130                   Religion                                         158    2    N    I    1    0   No   No
+                               1   Christian
+                               2   Muslim
+                               3   Traditional religion
+                               4   No religion
+                               96  Other
+                           (m) 99  Missing
+                          (na)     NotAppl
+V131                   Ethnicity                                        160    2    N    I    1    0   No   No
+                               1   Bassa
+                               2   Gbandi
+                               3   Belle
+                               4   Dey
+                               5   Gio
+                               6   Gola
+                               7   Grebo
+                               8   Kissi
+                               9   Kpelle
+                               10  Krahn
+                               11  Kru
+                               12  Lorma
+                               13  Mandigo
+                               14  Mano
+                               15  Mende
+                               16  Vai
+                               17  None / English only
+                               96  other
+                           (m) 99  Missing
+                          (na)     NotAppl
+V133                   Education in single years                        162    2    N    I    1    0   No   No
+                               0:20  
+                               97    Inconsistent
+                           (m) 99    Missing
+V134                   De facto place of residence                      164    1    N    I    1    0   No   No
+                               0  Capital, large city
+                               1  Small city
+                               2  Town
+                               3  Countryside
+                           (m) 9  Missing
+V135                   Usual resident or visitor                        165    1    N    I    1    0   No   No
+                               1  Usual resident
+                               2  Visitor
+                           (m) 9  Missing
+V136                   Number of household members                      166    2    N    I    1    0   No   No
+V137                   Number of children 5 and under                   168    2    N    I    1    0   No   No
+V138                   Number of eligible women in HH                   170    2    N    I    1    0   No   No
+V139                   De jure region of residence                      172    2    N    I    1    0   No   No
+                               0   Abroad
+                               1   Monrovia
+                               2   North Western
+                               3   South Central
+                               4   South Eastern A
+                               5   South Eastern B
+                               6   North Central
+                               97  Not dejure resident
+                           (m) 99  Missing
+V140                   De jure type of place of res.                    174    1    N    I    1    0   No   No
+                               0  Abroad
+                               1  Urban
+                               2  Rural
+                               7  Not dejure resident
+                           (m) 9  Missing
+V141                   De jure place of residence                       175    1    N    I    1    0   No   No
+                               0  Capital, large city
+                               1  City
+                               2  Town
+                               3  Countryside
+                               4  Abroad
+                               7  Not dejure resident
+                           (m) 9  Missing
+V149                   Educational attainment                           176    1    N    I    1    0   No   No
+                               0  No education
+                               1  Incomplete primary
+                               2  Complete primary
+                               3  Incomplete secondary
+                               4  Complete secondary
+                               5  Higher
+                           (m) 9  Missing
+V150                   Relationship to household head                   177    2    N    I    1    0   No   No
+                               1   Head
+                               2   Wife or husband
+                               3   Son/daughter
+                               4   Son/daughter-in-law
+                               5   Grandchild
+                               6   Parent
+                               7   Parent-in-law
+                               8   Brother/sister
+                               9   Co-spouse
+                               10  Other relative
+                               11  Adopted/foster child
+                               12  Not related
+                               13  Niece/nephew by blood
+                               14  Niece/nephew by marriage
+                               98  DK
+                           (m) 99  Missing
+V151                   Sex of household head                            179    1    N    I    1    0   No   No
+                               1  Male
+                               2  Female
+V152                   Age of household head                            180    2    N    I    1    0   No   No
+                               0:96  
+                               97    97+
+                               98    DK
+                           (m) 99    Missing
+V153                   NA - Has telephone                               182    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                               7  Not dejure resident
+                           (m) 9  Missing
+                          (na)    NotAppl
+AWFACTT                All woman factor - total                         183    5    N    I    1    0   No   No
+                          (na)        NotAppl
+AWFACTU                All woman factor - urban/rural                   188    5    N    I    1    0   No   No
+                          (na)        NotAppl
+AWFACTR                All woman factor - regional                      193    5    N    I    1    0   No   No
+                          (na)        NotAppl
+AWFACTE                All woman factor - educational                   198    5    N    I    1    0   No   No
+                          (na)        NotAppl
+AWFACTW                All woman factor - wealth index                  203    5    N    I    1    0   No   No
+                          (na)        NotAppl
+V155                   Literacy                                         208    1    N    I    1    0   No   No
+                               0  Cannot read at all
+                               1  Able to read only parts of sentence
+                               2  Able to read whole sentence
+                               3  No card with required language
+                               4  Blind/visually impaired
+                           (m) 9  Missing
+V156                   NA - Ever participated in a literacy program ou  209    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+V157                   NA - Frequency of reading newspaper or magazine  210    1    N    I    1    0   No   No
+                               0  Not at all
+                               1  Less than once a week
+                               2  At least once a week
+                               3  Almost every day
+                           (m) 9  Missing
+                          (na)    NotAppl
+V158                   NA - Frequency of listening to radio             211    1    N    I    1    0   No   No
+                               0  Not at all
+                               1  Less than once a week
+                               2  At least once a week
+                               3  Almost every day
+                           (m) 9  Missing
+                          (na)    NotAppl
+V159                   NA - Frequency of watching television            212    1    N    I    1    0   No   No
+                               0  Not at all
+                               1  Less than once a week
+                               2  At least once a week
+                               3  Almost every day
+                           (m) 9  Missing
+                          (na)    NotAppl
+V160                   NA - Toilet facilities shared                    213    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                               7  Not dejure resident
+                           (m) 9  Missing
+                          (na)    NotAppl
+V161                   Type of cooking fuel                             214    2    N    I    1    0   No   No
+                               1   Electricity
+                               2   LPG
+                               3   Natural gas
+                               4   Biogas
+                               5   Kerosene
+                               6   Coal, lignite
+                               7   Charcoal
+                               8   Wood
+                               9   Straw / shrubs / grass
+                               10  Agricultural crop
+                               11  Animal dung
+                               95  No food cooked in HH
+                               96  Other
+                               97  Not dejure resident
+                           (m) 99  Missing
+                          (na)     NotAppl
+V166                   NA - Results of salt iodine test                 216    3    N    I    1    0   No   No
+                               0       0 ppm (no iodine)
+                               1:6     
+                               7       7 ppm
+                               8:14    
+                               15      15 ppm
+                               16:29   
+                               30      30 ppm
+                               31:100  
+                               994     Salt not tested
+                               995     No salt
+                               997     Not dejure resident
+                           (m) 999     Missing
+                          (na)         NotAppl
+V167                   NA - Number of trips in last 12 months           219    2    N    I    1    0   No   No
+                               0     None
+                               1:90  
+                           (m) 99    Missing
+                          (na)       Not applicable
+V168                   NA - Away for more than one month in last 12 mo  221    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+V190                   Wealth index                                     222    1    N    I    1    0   No   No
+                               1  Poorest
+                               2  Poorer
+                               3  Middle
+                               4  Richer
+                               5  Richest
+                          (na)    Not Applicable
+V191                   Wealth index factor score (5 decimals)           223    8    N    I    1    0   No   No
+                          (na)           Not Applicable
+ML101                  Type of bednet(s) slept under last night         231    1    N    I    1    0   No   No
+                               0  No bednet
+                               1  Only treated bednets
+                               2  Both treated and untreated bednets
+                               3  Only untreated bednets
+                           (m) 9  Missing
+                          (na)    NotAppl
+BIDX                   Birth column number                              232    2    N    I   20    0   No   No
+                               1:20  
+BORD                   Birth order number                               272    2    N    I   20    0   No   No
+                               1:20  
+B0                     Child is twin                                    312    1    N    I   20    0   No   No
+                               0  Single birth
+                               1  1st of multiple
+                               2  2nd of multiple
+                               3  3rd of multiple
+                               4  4th of multiple
+                               5  5th of multiple
+B1                     Month of birth                                   332    2    N    I   20    0   No   No
+                               1:12  
+B2                     Year of birth                                    372    4    N    I   20    0   No   No
+                               1960:2010  
+B3                     Date of birth (CMC)                              452    4    N    I   20    0   No   No
+B4                     Sex of child                                     532    1    N    I   20    0   No   No
+                               1  Male
+                               2  Female
+B5                     Child is alive                                   552    1    N    I   20    0   No   No
+                               0  No
+                               1  Yes
+B6                     Age at death                                     572    3    N    I   20    0   No   No
+                               100:130  
+                               200:224  
+                               301:335  
+                               997      Inconsistent
+                               998      Don't know
+                           (m) 999      Missing
+                          (na)          NotAppl
+B7                     Age at death (months-imputed)                    632    3    N    I   20    0   No   No
+                               0:420  
+                          (na)        NotAppl
+B8                     Current age of child                             692    2    N    I   20    0   No   No
+                               0:40  
+                          (na)       NotAppl
+B9                     Child lives with whom                            732    1    N    I   20    0   No   No
+                               0  Respondent
+                               1  Father
+                               2  Other relative
+                               3  Someone else
+                               4  Lives elsewhere
+                           (m) 9  Missing
+                          (na)    NotAppl
+B10                    Completeness of information                      752    1    N    I   20    0   No   No
+                               1  Month and year
+                               2  Month and age -y imp
+                               3  Year and age - m imp
+                               4  Y & age - y ignored
+                               5  Year - a, m imp
+                               6  Age - y, m imp
+                               7  Month - a, y imp
+                               8  None - all imp
+B11                    Preceding birth interval                         772    3    N    I   20    0   No   No
+                          (na)      NotAppl
+B12                    Succeeding birth interval                        832    3    N    I   20    0   No   No
+                          (na)      NotAppl
+B13                    Flag for age at death                            892    1    N    I   20    0   No   No
+                               0  No flag
+                               1  > interview
+                               2  < breastfeeding
+                               3  < age supplemented
+                               4  < first breastfed
+                               5  < last vaccination
+                               6  Outside range
+                               7  Imputed, units given
+                               8  Imputed, no units
+                          (na)    NotAppl
+B15                    Live birth between births                        912    1    N    I   20    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+B16                    Child's line number in household                 932    2    N    I   20    0   No   No
+                               0     Not listed in household
+                               1:75  
+                           (m) 99    Missing
+                          (na)       NotAppl
+V201                   Total children ever born                         972    2    N    I    1    0   No   No
+                               0:20  
+V202                   Sons at home                                     974    2    N    I    1    0   No   No
+                               0:20  
+V203                   Daughters at home                                976    2    N    I    1    0   No   No
+                               0:20  
+V204                   Sons elsewhere                                   978    2    N    I    1    0   No   No
+                               0:20  
+V205                   Daughters elsewhere                              980    2    N    I    1    0   No   No
+                               0:20  
+V206                   Sons who have died                               982    2    N    I    1    0   No   No
+                               0:20  
+V207                   Daughters who have died                          984    2    N    I    1    0   No   No
+                               0:20  
+V208                   Births in last five years                        986    1    N    I    1    0   No   No
+                               0:6  
+V209                   Births in past year                              987    1    N    I    1    0   No   No
+                               0:4  
+V210                   Births in month of interview                     988    1    N    I    1    0   No   No
+                               0:4  
+V211                   Date of first birth (CMC)                        989    4    N    I    1    0   No   No
+                          (na)       NotAppl
+V212                   Age of respondent at 1st birth                   993    2    N    I    1    0   No   No
+                               10:49  
+                          (na)        NotAppl
+V213                   Currently pregnant                               995    1    N    I    1    0   No   No
+                               0  No or unsure
+                               1  Yes
+V214                   Duration of current pregnancy                    996    2    N    I    1    0   No   No
+                               1:10  
+                          (na)       NotAppl
+V215                   NA - Time since last menstrual perd              998    3    N    I    1    0   No   No
+                               994  In menopause
+                               995  Before last birth
+                               996  Never menstruated
+                               997  Inconsistent
+                               998  Don't know
+                           (m) 999  Missing
+                          (na)      NotAppl
+V216                   NA - Menstruated in last six weeks              1001    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                          (na)    NotAppl
+V217                   NA - Knowledge of ovulatory cycle               1002    1    N    I    1    0   No   No
+                               1  During her period
+                               2  After period ended
+                               3  Middle of the cycle
+                               4  Before period begins
+                               5  At any time
+                               6  Other
+                               8  Don't know
+                           (m) 9  Missing
+V218                   Number of living children                       1003    2    N    I    1    0   No   No
+                               0:20  
+V219                   Living children + current preg                  1005    2    N    I    1    0   No   No
+                               0:20  
+V220                   Living children + curr preg 6+                  1007    1    N    I    1    0   No   No
+                               0:5  
+                               6    6+
+V221                   NA - Marriage to first birth int.               1008    3    N    I    1    0   No   No
+                               996  Negative interval
+                          (na)      NotAppl
+V222                   Last birth to interview                         1011    3    N    I    1    0   No   No
+                          (na)      NotAppl
+V223                   Completeness of curr preg. inf                  1014    1    N    I    1    0   No   No
+                               7  Month - exact date
+                               8  None - date placed
+                          (na)    NotAppl
+V224                   Entries in birth history                        1015    2    N    I    1    0   No   No
+                               0:20  
+V225                   NA - Current pregnancy wanted                   1017    1    N    I    1    0   No   No
+                               1  Then
+                               2  Later
+                               3  Not at all
+                           (m) 9  Missing
+                          (na)    NotAppl
+V226                   NA - Time since last period (comp)              1018    3    N    I    1    0   No   No
+                               994  In menopause
+                               995  Before last birth
+                               996  Never menstruated
+                               997  Inconsistent
+                               998  Don't know
+                           (m) 999  Missing
+                          (na)      NotAppl
+V227                   NA - Flag for last period                       1021    1    N    I    1    0   No   No
+                               0  No flag
+                               1  N > int. since birth
+                               2  N + amen. > interval
+                               3  N, but per. not ret.
+                               4  95, but no birth
+                               5  95, but per.returned
+                               6  96, but per.returned
+                               7  N, last per. in preg
+                               8  96, had children
+                               9  N, per.bef.last birth
+                          (na)    NotAppl
+V228                   NA - Ever had a terminated preg.                1022    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+V229                   NA - Month pregnancy ended                      1023    2    N    I    1    0   No   No
+                               1:12  
+                               97    Inconsistent
+                               98    DK
+                           (m) 99    Missing
+                          (na)       NotAppl
+V230                   NA - Year pregnancy ended                       1025    4    N    I    1    0   No   No
+                               1960:2010  
+                               9997       Inconsistent
+                               9998       DK
+                           (m) 9999       Missing
+                          (na)            NotAppl
+V231                   NA - CMC pregnancy ended                        1029    4    N    I    1    0   No   No
+                               9997  Inconsistent
+                               9998  DK
+                           (m) 9999  Missing
+                          (na)       NotAppl
+V232                   NA - Completeness of last term. inf             1033    1    N    I    1    0   No   No
+                               1    Month and year
+                               2    From calendar
+                               3:4  
+                               5    Year
+                               6    
+                               7    Month
+                               8    None
+                          (na)      NotAppl
+V233                   NA - Months when pregnancy ended                1034    2    N    I    1    0   No   No
+                               0:10  
+                               97    Inconsistent
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       NotAppl
+V234                   NA - Other such pregnancies                     1036    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+V235                   NA - Index last child prior to cal.             1037    2    N    I    1    0   No   No
+                               0    No prior child
+                               1:7  
+                          (na)      NotAppl
+V237                   Birth between last & interview                  1039    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+V238                   Births in last three years                      1040    1    N    I    1    0   No   No
+                               0:4  
+V239                   NA - Pregnancies terminated before calendar beg 1041    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+V240                   NA - Month of last termination prior to calenda 1042    2    N    I    1    0   No   No
+                               1:12  
+                               97    Inconsistent
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       NotAppl
+V241                   NA - Year of last termination prior to calendar 1044    4    N    I    1    0   No   No
+                               1960:2005  
+                               9997       Inconsistent
+                               9998       Don't know
+                           (m) 9999       Missing
+                          (na)            NotAppl
+V242                   NA - CMC termination ended prior to calendar    1048    4    N    I    1    0   No   No
+                               9997  Inconsistent
+                               9998  Don't know
+                           (m) 9999  Missing
+                          (na)       NotAppl
+V243                   NA - Completeness of last termination date prio 1052    1    N    I    1    0   No   No
+                               1    Month and year
+                               2    From calendar
+                               3:4  
+                               5    Year
+                               6    
+                               7    Month
+                               8    None
+                          (na)      NotAppl
+MIDX                   Index to birth history                          1053    1    N    I    6    0   No   No
+                               1:6  
+M2A                    Prenatal: doctor                                1059    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+M2B                    Prenatal: nurse/midwife                         1065    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+M2C                    Prenatal: auxiliary midwife                     1071    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+M2D                    NA - Prenatal: CS health profession             1077    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+M2E                    NA - Prenatal: CS health profession             1083    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+M2F                    NA - Prenatal: trained birth att.               1089    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+M2G                    Prenatal: trad.birth attendant                  1095    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+M2H                    NA - Prenatal: relative                         1101    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+M2I                    NA - Prenatal: CS other person                  1107    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+M2J                    NA - Prenatal: CS other person                  1113    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+M2K                    Prenatal: other resp (uncoded)                  1119    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+M2L                    NA - Prenatal: CS other                         1125    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+M2M                    NA - Prenatal: CS other                         1131    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+M2N                    Prenatal: no one                                1137    1    N    I    6    0   No   No
+                               0  No: some care
+                               1  Yes: no care
+                           (m) 9  Missing
+                          (na)    NotAppl
+M3A                    NA - Assistance: doctor                         1143    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+M3B                    NA - Assistance: nurse/midwife                  1149    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+M3C                    NA - Assistance: auxiliary midwife              1155    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+M3D                    NA - Assistance: CS health profess.             1161    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+M3E                    NA - Assistance: CS health profess.             1167    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+M3F                    NA - Assistance: trained birth att.             1173    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+M3G                    NA - Assistance: trad.birth attend.             1179    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+M3H                    NA - Assistance: relative, friend               1185    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+M3I                    NA - Assistance: CS other person                1191    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+M3J                    NA - Assistance: CS other person                1197    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+M3K                    NA - Assistance: other resp (uncod)             1203    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+M3L                    NA - Assistance: CS other                       1209    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+M3M                    NA - Assistance: CS other                       1215    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+M3N                    NA - Assistance: no one                         1221    1    N    I    6    0   No   No
+                               0  No: some assistance
+                               1  Yes: no assistance
+                           (m) 9  Missing
+                          (na)    NotAppl
+M45                    NA - During pregancy, given or bought iron tabl 1227    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+M46                    NA - Days tablets or syrup taken                1233    3    N    I    6    0   No   No
+                               1:300  
+                               998    Don't know
+                           (m) 999    Missing
+                          (na)        NotAppl
+M47                    NA - During pregnancy, had difficulty with dayl 1251    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+M48                    NA - During pregnancy, had difficulty with nigh 1257    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+M49A                   During pregnancy - took Fansidar for Malaria    1263    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+M49B                   During pregnancy - took Chloroquine for Malaria 1269    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+M49C                   NA - During pregnancy - took Unknown Drug for M 1275    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+M49D                   During pregnancy - took CS ACT for Malaria      1281    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+M49E                   During pregnancy - took CS Quinine for Malaria  1287    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+M49F                   During pregnancy - took CS Amodiaquine for Mala 1293    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+M49G                   During pregnancy - took CS Paracetamol for Mala 1299    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+M49X                   During pregnancy - took other drug for Malaria  1305    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+M49Z                   During pregnancy - took no drug for Malaria     1311    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes, took no drug
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+M60                    NA - Drugs for intestinal parasites             1317    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                               8  DK
+                           (m) 9  Missing
+                          (na)    Not applicable
+V417                   Entries in maternity table                      1323    1    N    I    1    0   No   No
+                               0:6  
+V418                   Entries in health table                         1324    1    N    I    1    0   No   No
+                               0:6  
+V419                   Entries in height/weight table                  1325    1    N    I    1    0   No   No
+                               0:6  
+V459                   Have bednet for sleeping (household report)     1326    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+V460                   Children under 5 slept under bednet last night  1327    1    N    I    1    0   No   No
+                               0  No
+                               1  All children
+                               2  Some children
+                               3  No bednet in HH
+                           (m) 9  Missing
+                          (na)    NotAppl
+V461                   Respondent slept under bednet                   1328    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+HIDX                   Index to birth history                          1329    1    N    I    6    0   No   No
+                               1:6  
+H22                    Had fever in last two weeks                     1335    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                               8  DK
+                           (m) 9  Missing
+                          (na)    NotAppl
+H31                    NA - Had cough in last two weeks                1341    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes, last 24 hours
+                               2  Yes, last two weeks
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+H31B                   NA - Short, rapid breaths                       1347    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                               8  DK
+                           (m) 9  Missing
+                          (na)    NotAppl
+H31C                   NA - Problem in the chest or blocked or running 1353    1    N    I    6    0   No   No
+                               1  Chest only
+                               2  Nose only
+                               3  Both
+                               6  Other
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not applicable
+H31D                   NA - Had fever/cough in last 2 weeks: Amount of 1359    1    N    I    6    0   No   No
+                               0  Nothing to drink
+                               2  Much less
+                               3  Somewhat less
+                               4  About the same
+                               5  More
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+H31E                   NA - Had fever/cough in last 2 weeks: Amount of 1365    1    N    I    6    0   No   No
+                               0  Stopped food
+                               1  Never gave food
+                               2  Much less
+                               3  Somewhat less
+                               4  About the same
+                               5  More
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+H32A                   Fever/cough: government hospital                1371    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H32B                   Fever/cough: government health center           1377    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H32C                   Fever/cough: government health post/clinic      1383    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H32D                   NA - Fever/cough: mobile clinic                 1389    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H32E                   NA - Fever/cough: community health worker       1395    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H32F                   NA - Fever/cough: CS public sector              1401    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H32G                   NA - Fever/cough: CS public sector              1407    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H32H                   NA - Fever/cough: CS public sector              1413    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H32I                   Fever/cough: other public sector                1419    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H32J                   Fever/cough: private hospital/clinic            1425    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H32K                   Fever/cough: private pharmacy                   1431    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H32L                   Fever/cough: private doctor                     1437    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H32M                   Fever/cough: private mobile clinic              1443    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H32N                   NA - Fever/cough: community health worker       1449    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H32O                   NA - Fever/cough: CS med.priv sect              1455    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H32P                   NA - Fever/cough: CS med.priv sect              1461    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H32Q                   NA - Fever/cough: CS med.priv sect              1467    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H32R                   Fever/cough: other medical private section      1473    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H32S                   Fever/cough: shop                               1479    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H32T                   Fever/cough: traditional practitionel           1485    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H32U                   Fever/cough: CS Black baggers (drugs seller)    1491    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H32V                   NA - Fever/cough: CS oth.priv sect              1497    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H32W                   NA - Fever/cough: CS oth.priv sect              1503    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H32X                   Fever/cough: Other                              1509    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H32Y                   Fever/cough: no treatment                       1515    1    N    I    6    0   No   No
+                               0  No: received treatm.
+                               1  Yes: no treatment
+                           (m) 9  Missing
+                          (na)    NotAppl
+H32Z                   Fever/cough: medical treatment                  1521    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H33                    NA - Received Vitamin A1 (most recent)          1527    1    N    I    6    0   No   No
+                               0  No
+                               1  Vacc. date on card
+                               2  Reported by mother
+                               3  Vacc. marked on card
+                               8  DK
+                           (m) 9  Missing
+                          (na)    NotAppl
+H33D                   NA - Vitamin A1 Day                             1533    2    N    I    6    0   No   No
+                               1:31  
+                               97    Inconsistent
+                               98    DK
+                           (m) 99    Missing
+                          (na)       NotAppl
+H33M                   NA - Vitamin A1 month                           1545    2    N    I    6    0   No   No
+                               1:12  
+                               97    Inconsistent
+                               98    DK
+                           (m) 99    Missing
+                          (na)       NotAppl
+H33Y                   NA - Vitamin A1 year                            1557    4    N    I    6    0   No   No
+                               2000:2010  
+                               9997       Inconsistent
+                               9998       DK
+                           (m) 9999       Missing
+                          (na)            NotAppl
+H34                    NA - Vitamin A in last 6 months                 1581    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+H35                    NA - Any vaccinations in last 2 years part of c 1587    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                               2  No vaccination in last 2 years
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+H36A                   NA - Vaccinated during Campaign A               1593    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                               8  DK
+                           (m) 9  Missing
+                          (na)    NotAppl
+H36B                   NA - Vaccinated during Campaign B               1599    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                               8  DK
+                           (m) 9  Missing
+                          (na)    NotAppl
+H36C                   NA - Vaccinated during Campaign C               1605    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                               8  DK
+                           (m) 9  Missing
+                          (na)    NotAppl
+H36D                   NA - Vaccinated during Campaign D               1611    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                               8  DK
+                           (m) 9  Missing
+                          (na)    NotAppl
+H36E                   NA - Vaccinated during Campaign E               1617    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                               8  DK
+                           (m) 9  Missing
+                          (na)    NotAppl
+H36F                   NA - Vaccinated during Campaign F               1623    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                               8  DK
+                           (m) 9  Missing
+                          (na)    NotAppl
+H37A                   Fansidar taken for fever/cough                  1629    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H37B                   Chloroquine taken for fever/cough               1635    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H37C                   NA - Amodiaquine taken for fever/cough          1641    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H37D                   Quinine taken for fever/cough                   1647    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H37E                   NA - Combination with artemisinin taken for fev 1653    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H37F                   ACT antimalarial taken for fever/cough          1659    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H37G                   NA - CS antimalarial taken for fever/cough      1665    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H37H                   Other antimalarial taken for fever/cough        1671    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H37I                   NA - Pills/syrup taken for fever/cough          1677    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H37J                   NA - Injection taken for fever/cough            1683    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H37K                   Aspirin taken for fever/cough                   1689    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H37L                   Acetaminophen taken for fever/cough             1695    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H37M                   Ibuprofen taken for fever/cough                 1701    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H37N                   NA - CS other taken for fever/cough             1707    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H37O                   NA - CS other for fever/cough                   1713    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H37P                   NA - CS other for fever/cough                   1719    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H37X                   Other taken for fever/convulsion                1725    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+H37Y                   Nothing taken for fever/convulsion              1731    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes, nothing taken
+                           (m) 9  Missing
+                          (na)    NotAppl
+H37Z                   Don't know if or what was taken for fever/convu 1737    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes, DK
+                           (m) 9  Missing
+                          (na)    NotAppl
+H46A                   Place first sought treatment for fever          1743    2    N    I    6    0   No   No
+                               10  PUBLIC SECTOR
+                               11  Government hospital
+                               12  Government health center
+                               13  Government health post
+                               14  Mobile clinic
+                               15  Field worker
+                               16  Other public
+                               20  PRIVATE MEDICAL
+                               21  Private hospital, clinic
+                               22  Pharmacy
+                               23  Private doctor
+                               24  Private mobile clinic
+                               25  Field worker
+                               26  Other private
+                               30  OTHER
+                               31  Shop
+                               32  Traditional practitioner
+                               33  Black baggers (drugs seller)
+                               96  Other
+                           (m) 99  Missing
+                          (na)     NotAppl
+H46B                   Days after fever sought advice or treatment     1755    2    N    I    6    0   No   No
+                               0     Same day
+                               1:90  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not applicable
+HWIDX                  Index to birth history                          1767    1    N    I    6    0   No   No
+                               1:6  
+HW1                    Age in months                                   1773    2    N    I    6    0   No   No
+                          (na)     NotAppl
+HW16                   Day of birth of child                           1785    2    N    I    6    0   No   No
+                               1:31  
+                               97    Inconsistent
+                               98    DK
+                           (m) 99    Missing
+                          (na)       NotAppl
+HW17                   Date measured (day)                             1797    2    N    I    6    0   No   No
+                               1:31  
+                          (na)       NotAppl
+HW18                   Date measured (month)                           1809    2    N    I    6    0   No   No
+                               1:12  
+                          (na)       NotAppl
+HW19                   Date measured (year)                            1821    4    N    I    6    0   No   No
+                               2000:2010  
+                          (na)            NotAppl
+HW51                   Line no. of parent/caretaker                    1845    2    N    I    6    0   No   No
+                               0     Not in household
+                               1:50  
+                           (m) 99    Missing
+                          (na)       NotAppl
+HW52                   Read consent statement                          1857    1    N    I    6    0   No   No
+                               1  Granted
+                               2  Refused
+                           (m) 9  Missing
+                          (na)    NotAppl
+HW53                   Hemoglobin level (g/dl - 1 decimal)             1863    3    N    I    6    0   No   No
+                           (m) 999  Missing
+                          (na)      NotAppl
+HW55                   Result of measuring (Hemoglobin)                1881    1    N    I    6    0   No   No
+                               0  Measured
+                               1  Dead
+                               2  
+                               3  Not present
+                               4  Refused
+                               5  
+                               6  Other
+                               7  No measurement found in HH
+                           (m) 9  Missing
+                          (na)    NotAppl
+HW56                   Hemoglobin level adjusted by altitude (g/dl - 1 1887    4    N    I    6    0   No   No
+                           (m) 9999  Missing
+                          (na)       NotAppl
+HW57                   Anemia level                                    1911    1    N    I    6    0   No   No
+                               1  Severe
+                               2  Moderate
+                               3  Mild
+                               4  Not anemic
+                           (m) 9  Missing
+                          (na)    NotAppl
+HW58                   NA - Agrees to referral                         1917    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+V801                   Time interview started                          1923    4    N    I    1    0   No   No
+                           (m) 9999  Missing
+V802                   Time interview ended                            1927    4    N    I    1    0   No   No
+                           (m) 9999  Missing
+V803                   Length of interview in minutes                  1931    2    N    I    1    0   No   No
+                               0:91  
+                               95    95+
+                               96    2+ visits
+                               97    Inconsistent
+                           (m) 99    Missing
+V804                   Number of visits                                1933    1    N    I    1    0   No   No
+                               1:5  
+V805                   Interviewer identification                      1934    3    N    I    1    0   No   No
+                           (m) 999  Missing
+V806                   Keyer identification                            1937    2    N    I    1    0   No   No
+                           (m) 99  Missing
+IDXML                  Index to birth history                          1939    1    N    I    6    0   No   No
+                               1:6  
+ML0                    Type of bednet(s) child slept under last night  1945    1    N    I    6    0   No   No
+                               0  No bednet
+                               1  Only treated bednets
+                               2  Both treated and untreated bednets
+                               3  Only untreated bednets
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML1                    Times took Fansidar during pregnancy            1951    2    N    I    6    0   No   No
+                               0:97  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       NotAppl
+ML2                    Type of visit at source for antimalarial during 1963    1    N    I    6    0   No   No
+                               1  Antenatal visit
+                               2  Another facility visit
+                               6  Other source
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML11                   Child has fever/cough now                       1969    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes, fever only
+                               2  Yes, cough only
+                               3  Both fever and cough
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML12                   NA - Child has had convulsions in last 2 weeks  1975    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML13A                  Fansidar taken for fever/cough                  1981    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML13B                  Chloroquine taken for fever/cough               1987    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML13C                  NA - Amodiaquine taken for fever/cough          1993    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML13D                  Quinine taken for fever/cough                   1999    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML13E                  NA - Combination with artemisinin taken for fev 2005    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML13F                  ACT antimalarial taken for fever/cough          2011    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML13G                  NA - CS antimalarial taken for fever/cough      2017    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML13H                  Other antimalarial taken for fever/cough        2023    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML13I                  NA - Pills/syrup taken for fever/cough          2029    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML13J                  NA - Injection taken for fever/cough            2035    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML13K                  Aspirin taken for fever/cough                   2041    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML13L                  Acetaminophen taken for fever/cough             2047    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML13M                  Ibuprofen taken for fever/cough                 2053    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML13N                  NA - CS other taken for fever/cough             2059    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML13O                  NA - CS other for fever/cough                   2065    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML13P                  NA - CS other for fever/cough                   2071    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML13X                  Other taken for fever/convulsion                2077    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML13Y                  Nothing taken for fever/convulsion              2083    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes, nothing taken
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML13Z                  Don't know if or what was taken for fever/convu 2089    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes, DK
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML14A                  NA - Injection for fever/convulsion             2095    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML14B                  NA - Suppository for fever/convulsion           2101    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML14Y                  NA - No suppository or injection for fever/conv 2107    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML14Z                  NA - Don't know if suppository or injection for 2113    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML15A                  When started Fansidar                           2119    1    N    I    6    0   No   No
+                               0  Same day as fever/convulsion
+                               1  Next day
+                               2  2 days after
+                               3  3 days after
+                               4  4+ days after
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML15B                  Days child took Fansidar                        2125    1    N    I    6    0   No   No
+                               1:6  
+                               7    7+ days
+                               8    Don't know
+                           (m) 9    Missing
+                          (na)      NotAppl
+ML15C                  First source for Fansidar                       2131    1    N    I    6    0   No   No
+                               0  Other source
+                               1  At home
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML16A                  When started Chloroquine                        2137    1    N    I    6    0   No   No
+                               0  Same day as fever/convulsion
+                               1  Next day
+                               2  2 days after
+                               3  3 days after
+                               4  4+ days after
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML16B                  Days child took Chloroquine                     2143    1    N    I    6    0   No   No
+                               1:6  
+                               7    7+ days
+                               8    Don't know
+                           (m) 9    Missing
+                          (na)      NotAppl
+ML16C                  First source for Chloroquine                    2149    1    N    I    6    0   No   No
+                               0  Other source
+                               1  At home
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML17A                  NA - When started Amodiaquine                   2155    1    N    I    6    0   No   No
+                               0  Same day as fever/convulsion
+                               1  Next day
+                               2  2 days after
+                               3  3 days after
+                               4  4+ days after
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML17B                  NA - Days child took Amodiaquine                2161    1    N    I    6    0   No   No
+                               1:6  
+                               7    7+ days
+                               8    Don't know
+                           (m) 9    Missing
+                          (na)      NotAppl
+ML17C                  NA - First source for Amodiaquine               2167    1    N    I    6    0   No   No
+                               0  Other source
+                               1  At home
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML18A                  When started Quinine                            2173    1    N    I    6    0   No   No
+                               0  Same day as fever/convulsion
+                               1  Next day
+                               2  2 days after
+                               3  3 days after
+                               4  4+ days after
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML18B                  Days child took Quinine                         2179    1    N    I    6    0   No   No
+                               1:6  
+                               7    7+ days
+                               8    Don't know
+                           (m) 9    Missing
+                          (na)      NotAppl
+ML18C                  First source for Quinine                        2185    1    N    I    6    0   No   No
+                               0  Other source
+                               1  At home
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML19A                  NA - For fever/conv: Consulted traditional heal 2191    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML19B                  NA - For fever/conv: Gave tepid sponging        2197    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML19C                  NA - For fever/conv: Gave herbs                 2203    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML19D                  NA - For fever/conv: CS                         2209    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML19E                  NA - For fever/conv: CS                         2215    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML19F                  NA - For fever/conv: CS                         2221    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML19X                  NA - For fever/conv: Other                      2227    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML19Y                  NA - For fever/conv: Gave nothing               2233    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML19Z                  NA - For fever/conv: Don't know if something el 2239    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML20A                  NA - When started combination with artemisinin  2245    1    N    I    6    0   No   No
+                               0  Same day as fever/convulsion
+                               1  Next day
+                               2  2 days after
+                               3  3 days after
+                               4  4+ days after
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML20B                  NA - Days child took combination with artemisin 2251    1    N    I    6    0   No   No
+                               1:6  
+                               7    7+ days
+                               8    Don't know
+                           (m) 9    Missing
+                          (na)      NotAppl
+ML20C                  NA - First source for combination with artemisi 2257    1    N    I    6    0   No   No
+                               0  Other source
+                               1  At home
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML21A                  When started ACT antimalarial                   2263    1    N    I    6    0   No   No
+                               0  Same day as fever/convulsion
+                               1  Next day
+                               2  2 days after
+                               3  3 days after
+                               4  4+ days after
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML21B                  Days child took ACT antimalarial                2269    1    N    I    6    0   No   No
+                               1:6  
+                               7    7+ days
+                               8    Don't know
+                           (m) 9    Missing
+                          (na)      NotAppl
+ML21C                  First source for ACT antimalarial               2275    1    N    I    6    0   No   No
+                               0  Other source
+                               1  At home
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML22A                  NA - When started CS antimalarial               2281    1    N    I    6    0   No   No
+                               0  Same day as fever/convulsion
+                               1  Next day
+                               2  2 days after
+                               3  3 days after
+                               4  4+ days after
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML22B                  NA - Days child took CS antimalarial            2287    1    N    I    6    0   No   No
+                               1:6  
+                               7    7+ days
+                               8    Don't know
+                           (m) 9    Missing
+                          (na)      NotAppl
+ML22C                  NA - First source for CS antimalarial           2293    1    N    I    6    0   No   No
+                               0  Other source
+                               1  At home
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML23A                  When started other anti-malarial                2299    1    N    I    6    0   No   No
+                               0  Same day as fever/convulsion
+                               1  Next day
+                               2  2 days after
+                               3  3 days after
+                               4  4+ days after
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML23B                  Days child took other anti-malarial             2305    1    N    I    6    0   No   No
+                               1:6  
+                               7    7+ days
+                               8    Don't know
+                           (m) 9    Missing
+                          (na)      NotAppl
+ML23C                  First source for other anti-malarial            2311    1    N    I    6    0   No   No
+                               0  Other source
+                               1  At home
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+ML24C                  NA - First source for antibiotic pill/syrup     2317    1    N    I    6    0   No   No
+                               0  Other source
+                               1  At home
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    NotAppl
+SDIST                  District                                        2323    2    N    I    1    0   No   No
+                               1:34  
+SCOUNTY                County                                          2325    2    N    I    1    0   No   No
+                               3   Bomi
+                               6   Bong
+                               9   Grand Bassa
+                               12  Grand Cape Mount
+                               15  Grand Gedeh
+                               16  Greater Monrovia
+                               18  Grand Kru
+                               21  Lofa
+                               24  Margibi
+                               27  Maryland
+                               30  Montserrado
+                               33  Nimba
+                               36  River Cess
+                               39  Sinoe
+                               42  Rivergee
+                               45  Gbarpolu
+S501                   Ever heard of Malaria                           2327    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+S502A                  Main Malaria symptoms: fever                    2328    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S502B                  Main Malaria symptoms: chills                   2329    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S502C                  Main Malaria symptoms: headache                 2330    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S502D                  Main Malaria symptoms: joint pain               2331    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S502E                  Main Malaria symptoms: poor appetite            2332    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S502F                  Main Malaria symptoms: vomiting                 2333    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S502G                  Main Malaria symptoms: weakness                 2334    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S502H                  Main Malaria symptoms: yellow urine/ eye        2335    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S502X                  Main Malaria symptoms: other                    2336    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S502Z                  Main Malaria symptoms: doesn't know any         2337    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S503A                  Children: age group of people most likely to ge 2338    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S503B                  Pregnant women: age group of people most likely 2339    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S503C                  Adults: age group of people most likely to get  2340    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S503D                  Elderly: age group of people most likely to get 2341    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S503E                  Everyone: age group of people most likely to ge 2342    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S503Z                  Does not know: age group of people most likely  2343    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S504A                  Cause(s) of Malaria: mosquitoes                 2344    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S504B                  Cause(s) of Malaria: dirty water                2345    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S504C                  Cause(s) of Malaria: dirty surroundings         2346    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S504D                  Cause(s) of Malaria: beer                       2347    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S504E                  Cause(s) of Malaria: certain foods              2348    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S504X                  Cause(s) of Malaria: other                      2349    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S504Z                  Cause(s) of Malaria: does not know              2350    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S505                   Possible to avoid Malaria                       2351    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S506A                  Sleep under mosquito net: ways to avoid Malaria 2352    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S506B                  Use mosquito coils: ways to avoid Malaria       2353    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S506C                  Use insecticide spray: ways to avoid Malaria    2354    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S506D                  Keep doors and windows closed: ways to avoid Ma 2355    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S506E                  Use insect repellant: ways to avoid Malaria     2356    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S506F                  Keep surroundings clean: ways to avoid Malaria  2357    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S506G                  Cut the grass: ways to avoid Malaria            2358    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S506X                  Other: ways to avoid Malaria                    2359    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S506Z                  Does not know: ways to avoid Malaria            2360    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S507                   Malaria can be treated                          2361    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not applicable
+S508A                  SP/Fansidar: drugs used to treat Malaria        2362    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not applicable
+S508B                  Chloroquine: drugs used to treat Malaria        2363    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not applicable
+S508C                  Quinine: drugs used to treat Malaria            2364    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not applicable
+S508D                  New malaria drug (ACT): drugs used to treat Mal 2365    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not applicable
+S508E                  Aspirin, panadol, paracetamol: drugs used to tr 2366    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not applicable
+S508F                  Herbs/ traditional medicine: drugs used to trea 2367    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not applicable
+S508X                  Other: drugs used to treat Malaria              2368    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not applicable
+S508Z                  Don't know: drugs used to treat Malaria         2369    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S509                   Seen/heard Malaria messages in past few months  2370    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S510A                  If have fever, go to health facility: malaria m 2371    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S510B                  Sleep under mosquito bed nets: malaria messages 2372    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S510C                  Pregnant women should take drugs to prevent mal 2373    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S510D                  Malaria skills: malaria messages seen/heard     2374    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S510X                  Other: malaria messages seen/heard              2375    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S510Z                  Does not know: malaria messages seen/heard      2376    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S511A                  Radio: place(s) seen/heard Malaria message(s)   2377    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S511B                  Billboard: place(s) seen/heard Malaria message( 2378    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S511C                  Poster: place(s) seen/heard Malaria message(s)  2379    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S511D                  T-shirt: place(s) seen/heard Malaria message(s) 2380    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S511E                  Leaflet/fact sheet/ brochure: place(s) seen/hea 2381    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S511F                  Television: place(s) seen/heard Malaria message 2382    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S511G                  Video club: place(s) seen/heard Malaria message 2383    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S511H                  School: place(s) seen/heard Malaria message(s)  2384    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S511I                  Community health worker: place(s) seen/heard Ma 2385    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S511J                  Peer educators: place(s) seen/heard Malaria mes 2386    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S511K                  Clinic/ health center: place(s) seen/heard Mala 2387    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+S511X                  Other: place(s) seen/heard Malaria message(s)   2388    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+                           (m) 9  Missing
+                          (na)    Not applicable
+IDX94                  Index to birth history                          2389    1    N    I    6    0   No   No
+                               1:6  
+S303A                  Told to take prophylactic anti-malarial meds    2395    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not applicable
+S307                   How many times took Fansidar (Malaria)          2401    2    N    I    6    0   No   No
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not applicable
+IDX95                  Index to birth history                          2413    1    N    I    6    0   No   No
+                               1:6  
+S405                   Days since fever started                        2419    2    N    I    6    0   No   No
+                               0     Less than one day
+                               1:90  
+                               98    Don't know
+                           (m) 99    Missing
+                          (na)       Not applicable
+S411A                  During illness drop of blood taken from finger  2431    1    N    I    6    0   No   No
+                               0  No
+                               1  Yes
+                               8  Don't know
+                           (m) 9  Missing
+                          (na)    Not applicable
+--------------------------------------------------------------------------------------------------------------
+Relation Name         Primary               Linked by             Secondary             Linked by
+--------------------------------------------------------------------------------------------------------------

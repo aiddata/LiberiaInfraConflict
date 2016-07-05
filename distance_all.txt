@@ -1,0 +1,98 @@
+
+Distance to Concession (2007-2013)
+===============================================================================================
+                                                           Dependent variable:                 
+                                           ----------------------------------------------------
+                                                            Night-time Lights                  
+                                               All Concessions      Extraction Concessions Only
+                                                     (1)                        (2)            
+-----------------------------------------------------------------------------------------------
+Treatment,                                          0.246                      0.095           
+                                                   (0.179)                    (0.181)          
+                                                                                               
+Night-time Lights, Pre-Trend (1992-2006)          11.566***                  15.259***         
+                                                   (0.694)                    (1.039)          
+                                                                                               
+Night-Time Lights, Pre-Average (1992-2006)        -0.139***                    0.009           
+                                                   (0.038)                    (0.036)          
+                                                                                               
+Education Level (Primary)                           0.091                      0.410           
+                                                   (0.237)                    (0.264)          
+                                                                                               
+Education Level (Secondary)                         -0.368                    -0.992           
+                                                   (0.502)                    (0.642)          
+                                                                                               
+Religion                                           1.118**                     0.314           
+                                                   (0.466)                    (0.492)          
+                                                                                               
+Living in Household                                 -0.016                     0.061           
+                                                   (0.047)                    (0.046)          
+                                                                                               
+Gender of Head of Household (Female)                0.027                     -0.585*          
+                                                   (0.247)                    (0.291)          
+                                                                                               
+Age of Head of Household                            -0.006                    -0.003           
+                                                   (0.008)                    (0.008)          
+                                                                                               
+Literacy (High)                                     0.734*                   1.802***          
+                                                   (0.413)                    (0.461)          
+                                                                                               
+Wealth (Poorer)                                     0.077                     -0.226           
+                                                   (0.263)                    (0.254)          
+                                                                                               
+Wealth (Middle)                                     0.463                     -0.302           
+                                                   (0.312)                    (0.284)          
+                                                                                               
+Wealth (Richer)                                     0.410                      0.504           
+                                                   (0.389)                    (0.505)          
+                                                                                               
+Wealth (Richest)                                    0.515                     -0.396           
+                                                   (0.527)                    (0.792)          
+                                                                                               
+Wealth (Factor Score)                               -0.234                    -0.332           
+                                                   (0.291)                    (0.383)          
+                                                                                               
+Marital Status (Married)                            -0.252                    -0.591           
+                                                   (0.324)                    (0.381)          
+                                                                                               
+Marital Status (Living Together)                    -0.016                    -1.675*          
+                                                   (1.353)                    (0.884)          
+                                                                                               
+Residing with Partner                               -0.130                     0.080           
+                                                   (0.309)                    (0.343)          
+                                                                                               
+Working (Yes)                                       -0.527                     0.337           
+                                                   (0.368)                    (0.402)          
+                                                                                               
+Occupation (44)                                     -0.499                     0.032           
+                                                   (0.359)                    (0.340)          
+                                                                                               
+Occupation (62)                                     -0.560                     0.241           
+                                                   (0.991)                    (0.640)          
+                                                                                               
+Occupation (65)                                   -2.562***                    0.681           
+                                                   (0.719)                    (0.600)          
+                                                                                               
+DHS Region (North Central)                        -3.646***                    0.672           
+                                                   (0.747)                    (0.686)          
+                                                                                               
+DHS Region (North Western)                        -2.238***                    0.748           
+                                                   (0.664)                    (0.622)          
+                                                                                               
+DHS Region (South Central)                        -2.297***                    0.512           
+                                                   (0.715)                    (0.655)          
+                                                                                               
+DHS Region (South Eastern A)                      -2.649***                                    
+                                                   (0.720)                                     
+                                                                                               
+DHS Region (South Eastern B)                       3.599***                   -0.530           
+                                                   (0.893)                    (0.941)          
+                                                                                               
+-----------------------------------------------------------------------------------------------
+Observations                                         216                        62             
+R2                                                  0.901                      0.952           
+Adjusted R2                                         0.887                      0.918           
+Residual Std. Error                            1.269 (df = 189)           0.615 (df = 36)      
+F Statistic                                65.999*** (df = 26; 189)   28.404*** (df = 25; 36)  
+===============================================================================================
+Note:                                                               *p<0.1; **p<0.05; ***p<0.01

@@ -1,0 +1,89 @@
+
+Overlap Counts (2007-2013)
+==============================================================================================
+                                                           Dependent variable:                
+                                           ---------------------------------------------------
+                                                            Night-time Lights                 
+                                               All Concessions     Extraction Concessions Only
+                                                     (1)                       (2)            
+----------------------------------------------------------------------------------------------
+Treatment                                          -0.647                    -0.523           
+                                                   (0.428)                   (0.517)          
+                                                                                              
+Night-time Lights, Pre-Trend (1992-2007)          12.355***                 17.205**          
+                                                   (1.747)                   (2.356)          
+                                                                                              
+Night-Time Lights, Pre-Average (1992-2007)        -0.377***                 -0.613**          
+                                                   (0.080)                   (0.076)          
+                                                                                              
+Education Level (Primary)                          1.880*                    -1.741           
+                                                   (0.922)                   (1.589)          
+                                                                                              
+Education Level (Secondary)                        3.216**                   -2.328           
+                                                   (1.124)                   (1.427)          
+                                                                                              
+Living in Household                                                          14.944           
+                                                                             (8.274)          
+                                                                                              
+Gender of Head of Household (Female)                0.017                    0.322*           
+                                                   (0.126)                   (0.084)          
+                                                                                              
+Age of Head of Household                           -1.169                     1.609           
+                                                   (0.717)                   (0.787)          
+                                                                                              
+Literacy (High)                                     0.016                     0.069           
+                                                   (0.035)                   (0.055)          
+                                                                                              
+Wealth (Poorer)                                    -0.417                    2.712*           
+                                                   (0.785)                   (0.902)          
+                                                                                              
+Wealth (Middle)                                     1.434                    -10.711          
+                                                   (1.540)                   (8.204)          
+                                                                                              
+Wealth (Richer)                                    -4.063*                   -3.805           
+                                                   (1.857)                   (4.001)          
+                                                                                              
+Wealth (Richest)                                   -2.541                    -9.811           
+                                                   (2.203)                   (5.830)          
+                                                                                              
+Marital Status (Married)                           -3.214                    -9.440           
+                                                   (2.214)                   (7.262)          
+                                                                                              
+Marital Status (Living Together)                   -0.470                    4.231*           
+                                                   (0.638)                   (0.993)          
+                                                                                              
+Marital Status (Not Living Together)                0.544                     9.985           
+                                                   (1.972)                   (4.337)          
+                                                                                              
+Working (Yes)                                      2.922**                   -4.484           
+                                                   (1.252)                   (2.424)          
+                                                                                              
+Occupation (44)                                    -1.396                    10.670*          
+                                                   (1.518)                   (3.258)          
+                                                                                              
+DHS Region (North Central)                         -4.072*                   -5.862           
+                                                   (1.965)                   (4.474)          
+                                                                                              
+DHS Region (North Western)                                                   -14.985          
+                                                                             (7.389)          
+                                                                                              
+DHS Region (South Central)                         -2.314                    -3.534           
+                                                   (1.560)                   (2.022)          
+                                                                                              
+DHS Region (South Eastern A)                        2.355                                     
+                                                   (2.194)                                    
+                                                                                              
+factor(DHSREGNA)south eastern b                    -3.812*                                    
+                                                   (1.850)                                    
+                                                                                              
+Constant                                            4.643                     4.621           
+                                                   (3.832)                   (7.123)          
+                                                                                              
+----------------------------------------------------------------------------------------------
+Observations                                         32                        24             
+R2                                                  0.985                     0.997           
+Adjusted R2                                         0.953                     0.971           
+Residual Std. Error                            1.039 (df = 10)           0.737 (df = 2)       
+F Statistic                                31.113*** (df = 21; 10)    37.226** (df = 21; 2)   
+==============================================================================================
+Note:                                                              *p<0.1; **p<0.05; ***p<0.01

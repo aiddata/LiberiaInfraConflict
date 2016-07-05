@@ -1,0 +1,18 @@
+Dear DHS GPS Data User,
+
+We are contacting you because you downloaded a previous version of the Liberia 2009 MIS GPS data.  
+All of the GPS data was recollected during the 2011 MIS, which used the same sample frame as the 2009 MIS.
+GPS readings from 2011 were more precise for 19 clusters, therefore the 2009 MIS GPS data has now been
+adjusted for the 19 clusters. 
+
+The following clusters' coordinates have been updated to reflect the more accurate locations: 
+4,15,25,35,37,49,53,64,65,66,77,81,85,96,100,102,104,106,109.
+
+
+These issues have been resolved in the newly issued dataset LBGE5CFL.  Please use these data 
+for any analyses and disregard the previous dataset.  We apologize for any confusion this may 
+cause you.   
+
+MEASURE DHS
+GIS Team
+gpsrequests@measuredhs.com

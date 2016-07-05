@@ -1,0 +1,271 @@
+
+     Westinghouse Electric Corp.       Institute for Resource Development
+
+               I S S A     D i c t i o n a r y     R e p o r t
+
+
+                  IIIIIIIIII     SSSSSSS       SSSSSSS            A
+                 IIIIIIIIII    SSSSSSSSSS    SSSSSSSSSS          AA
+                   IIII       SSSS          SSSS               AAAA
+                  IIII       SSSS          SSSS              AAAAAA
+                 IIII       SSSS          SSSS             AAA  AAA
+                IIII       SSSSSSSS      SSSSSSSS         AAA  AAA
+               IIII         SSSSSSSS      SSSSSSSS      AAA    AAA
+              IIII             SSSS          SSSS      AAAAAAAAAA
+             IIII             SSSS          SSSS     AAAAAAAAAAAA
+            IIII             SSSS          SSSS     AAA      AAA
+        IIIIIIIIII    SSSSSSSSSS    SSSSSSSSSS    AAAA      AAAA
+       IIIIIIIIII      SSSSSSS       SSSSSSS     AAAA      AAAA
+
+  I n t e g r a t e d   S y s t e m   f o r    S u r v e y   A n a l y s i s
+
+
+--------------------------------------------------------------------------------
+
+Dictionary Name   : LBHH01   (file 'LBHH01.DIC')
+
+Dictionary Label  : LIBERIA DHS 1986              
+
+Owner             : LIZ BRITTON                   
+
+Country           : LIBERIA                       
+
+Creation Date     : 860909 (invalid)
+
+Last Update       : Jan 20, 1989
+
+Questionnaire Id    Loc   Len   Label
+
+                    1     6     CLUSTER-HH                    
+
+Section Id          Loc   Len
+
+                    9     2  
+
+Report date & time: 01-20-89 at 12:28:23 hrs.
+
+
+                             SECTION DESCRIPTION                       
+                                                                        01-20-89
+                                                                        12:28:23
+--------------------------------------------------------------------------------
+Section     Length      Occurs   ---  Group  ---  
+ name   Code     Class  Min Max    Max Loc Len    Section Label
+--------------------------------------------------------------------------------
+
+SEC00    00    24  S     1   1   -without group-  HOUSEHOLD IDENTIFICATION
+
+SEC01    01    22  M     0  40   -without group-  HOUSEHOLD MEMBERS
+
+
+                             VARIABLE  DESCRIPTION                     
+Section   : SEC00                                                       01-20-89
+                                                                        12:28:23
+--------------------------------------------------------------------------------
+Variable  Loca  Len   Deci  For   Class  Variable Label
+Name      tion  gth   mals  mat          Value   Label
+--------------------------------------------------------------------------------
+
+HHCLUST     1     3    0     N      S    HOUSEHOLD CLUSTER NUMBER      
+                                         ranges:   lower   upper
+                                                     101     408
+
+HHHHNO      4     3    0     N      S    HOUSEHOLD HOUSEHOLD NUMBER    
+
+HHJUNK      7     4    0     N      S    PLACE HOLDER                  
+
+HHCOUNTY   11     2    0     N      S    HOUSEHOLD COUNTY              
+                                         values:   value  label
+                                                       1  Bomi                
+                                                       2  Bong                
+                                                       3  Grand Bassa         
+                                                       4  Grand Cape Mount    
+                                                       5  Grand Gedeh         
+                                                       6  Grand Kru           
+                                                       7  Lofa                
+                                                       8  Margibi             
+                                                       9  Maryland            
+                                                      10  Montserrado         
+                                                      11  Nimba               
+                                                      12  River Cess          
+                                                      14  Sinoe               
+                                         ranges:   lower   upper
+                                                       1      14
+
+HHDISTR    13     2    0     N      S    HOUSEHOLD DISTRICT            
+                                         ranges:   lower   upper
+                                                       1       7
+
+HHRESULT   15     1    0     N      S    HOUSEHOLD RESULT              
+                                         values:   value  label
+                                                       1  Completed           
+                                                       2  No competent resp.  
+                                                       3  Deferred            
+                                                       4  Refused             
+                                                       5  Dwelling vacant     
+                                                       6  Address not dwelling
+                                                       7  Household not found 
+                                                       8  Other               
+                                         ranges:   lower   upper
+                                                       1       8
+
+HHVISITS   16     1    0     N      S    HOUSEHOLD VISITS              
+                                         ranges:   lower   upper
+                                                       1       3
+
+HHWEIGHT   17     8    0     N      S    HOUSEHOLD WEIGHT * .000001    
+                                         values:   value  label
+                                                   BLANK  Not applicable value
+
+
+                             VARIABLE  DESCRIPTION                     
+Section   : SEC01                                                       01-20-89
+                                                                        12:28:23
+--------------------------------------------------------------------------------
+Variable  Loca  Len   Deci  For   Class  Variable Label
+Name      tion  gth   mals  mat          Value   Label
+--------------------------------------------------------------------------------
+
+HHLINENO   11     2    0     N      S    HOUSEHOLD LINE NUMBER         
+                                         ranges:   lower   upper
+                                                       1      65
+
+HHLIVES    13     1    0     N      S    HOUSEHOLD MEMBER LIVES HERE   
+                                         values:   value  label
+                                                       1  Yes                 
+                                                       2  No                  
+                                                       9  Missing value
+                                                   BLANK  Not applicable value
+                                         ranges:   lower   upper
+                                                       1       2
+
+HHSLEPT    14     1    0     N      S    HOUSEHOLD MEMBER SLEPT HERE   
+                                         values:   value  label
+                                                       1  Yes                 
+                                                       2  No                  
+                                                       9  Missing value
+                                                   BLANK  Not applicable value
+                                         ranges:   lower   upper
+                                                       1       2
+
+HHSEX      15     1    0     N      S    HOUSEHOLD MEMBER SEX          
+                                         values:   value  label
+                                                       1  Male                
+                                                       2  Female              
+                                                       9  Missing value
+                                                   BLANK  Not applicable value
+                                         ranges:   lower   upper
+                                                       1       2
+
+HHAGE      16     2    0     N      S    HOUSEHOLD MEMBER AGE          
+                                         values:   value  label
+                                                      99  Missing value
+                                                   BLANK  Not applicable value
+                                         ranges:   lower   upper
+                                                       0      98
+
+HHMOTHER   18     1    0     N      S    MOTHER USUALLY LIVES HERE     
+                                         values:   value  label
+                                                       1  Yes                 
+                                                       2  No                  
+                                                       9  Missing value
+                                                   BLANK  Not applicable value
+                                         ranges:   lower   upper
+                                                       1       2
+
+
+                             VARIABLE  DESCRIPTION                     
+Section   : SEC01                                                       01-20-89
+                                                                        12:28:23
+--------------------------------------------------------------------------------
+Variable  Loca  Len   Deci  For   Class  Variable Label
+Name      tion  gth   mals  mat          Value   Label
+--------------------------------------------------------------------------------
+
+HHOCCUP    19     3    0     N      S    HOUSEHOLD MEMBER OCCUPATION   
+                                         values:   value  label
+                                                     999  Missing value
+                                                   BLANK  Not applicable value
+                                         ranges:   lower   upper
+                                                       1     998
+
+HHEMP      22     1    0     N      S    HOUSEHOLD MEMBER EMPLOYMENT   
+                                         values:   value  label
+                                                       1  Employer            
+                                                       2  Employee            
+                                                       3  Self-emp            
+                                                       4  Unemployed          
+                                                       5  Housewife           
+                                                       6  Student             
+                                                       7                      
+                                                       9  Missing value
+                                                   BLANK  Not applicable value
+                                         ranges:   lower   upper
+                                                       0       8
+
+
+                             SECTION MAP                               
+Section   : SEC00                                                       01-20-89
+                                                                        12:28:23
+--------------------------------------------------------------------------------
+Loc Fmt   Variable      Variable Label                   Missing NotAppl Default
+--------------------------------------------------------------------------------
+
+    ___
+  1| N |  HHCLUST       HOUSEHOLD CLUSTER NUMBER                                
+   | N |
+   | N |    ___
+  4| N |  HHHHNO        HOUSEHOLD HOUSEHOLD NUMBER                              
+   | N |
+   | N |    ___
+  7| N |  HHJUNK        PLACE HOLDER                                            
+   | N |
+   | N |
+   | N |    ___
+ 11| N |  HHCOUNTY      HOUSEHOLD COUNTY                                        
+   | N |    ___
+ 13| N |  HHDISTR       HOUSEHOLD DISTRICT                                      
+   | N |    ___
+ 15| N |  HHRESULT      HOUSEHOLD RESULT                                            ___
+ 16| N |  HHVISITS      HOUSEHOLD VISITS                                            ___
+ 17| N |  HHWEIGHT      HOUSEHOLD WEIGHT * .000001                 BLANK        
+   | N |
+   | N |
+   | N |
+   | N |
+   | N |
+   | N |
+   | N |    ___
+
+                             SECTION MAP                               
+Section   : SEC01                                                       01-20-89
+                                                                        12:28:23
+--------------------------------------------------------------------------------
+Loc Fmt   Variable      Variable Label                   Missing NotAppl Default
+--------------------------------------------------------------------------------
+
+    ___
+  1|   |                                                
+   |   |
+   |   |
+   |   |
+   |   |
+   |   |
+   |   |
+   |   |
+   |   |
+   |   |    ___
+ 11| N |  HHLINENO      HOUSEHOLD LINE NUMBER                                   
+   | N |    ___
+ 13| N |  HHLIVES       HOUSEHOLD MEMBER LIVES HERE            9   BLANK            ___
+ 14| N |  HHSLEPT       HOUSEHOLD MEMBER SLEPT HERE            9   BLANK            ___
+ 15| N |  HHSEX         HOUSEHOLD MEMBER SEX                   9   BLANK            ___
+ 16| N |  HHAGE         HOUSEHOLD MEMBER AGE                  99   BLANK        
+   | N |    ___
+ 18| N |  HHMOTHER      MOTHER USUALLY LIVES HERE              9   BLANK            ___
+ 19| N |  HHOCCUP       HOUSEHOLD MEMBER OCCUPATION          999   BLANK        
+   | N |
+   | N |    ___
+ 22| N |  HHEMP         HOUSEHOLD MEMBER EMPLOYMENT            9   BLANK            ___
+
+... Report of Dictionary LBHH01 normally ended
